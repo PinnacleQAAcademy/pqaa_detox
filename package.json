@@ -5,9 +5,14 @@
   "scripts": {
     "android:build": "react-native run-android",
     "ios:build": "react-native run-ios",
-    "start": "react-native start"
+    "start": "react-native start",
+    "detox:build:ios-debug": "detox build --configuration ios.sim.debug",
+    "detox:e2e:ios-debug": "detox clean-framework-cache && detox build-framework-cache && DETOX_CONFIGURATION=ios.sim.debug npx cucumber-js",
+    "detox:build:android-debug": "detox build --configuration android.emu.debug",
+    "detox:e2e:android-debug": "DETOX_CONFIGURATION=android.emu.debug npx cucumber-js"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@react-native-community/async-storage": "1.12.1",
     "@react-native-community/datetimepicker": "3.5.2",
     "@react-native-community/masked-view": "0.1.11",
@@ -32,9 +37,12 @@
   },
   "devDependencies": {
     "@babel/core": "7.15.5",
+    "@babel/register": "7.15.3",
     "@babel/runtime": "7.15.4",
+    "@cucumber/cucumber": "^7.0.0",
     "@react-native-community/eslint-config": "3.0.1",
     "babel-jest": "27.1.0",
+    "detox": "^19.3.0",
     "eslint": "7.32.0",
     "jest": "27.1.0",
     "metro-react-native-babel-preset": "0.66.2",
