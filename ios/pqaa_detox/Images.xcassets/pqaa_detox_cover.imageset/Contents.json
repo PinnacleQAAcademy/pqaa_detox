@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "cover_imageset_1.jpg",
+      "filename" : "pqaa_detox_cover.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "cover_imageset_2.jpg",
+      "filename" : "pqaa_detox_cover@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "cover_imageset_3.jpg",
+      "filename" : "pqaa_detox_cover@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
