@@ -2,6 +2,16 @@ import { Given, When, Then, setDefaultTimeout } from '@cucumber/cucumber';
 
 setDefaultTimeout(120 * 1000);
 
+// Match by label
+When('I tap the Home navigation section by label', async () => {
+    await element(by.label('Home')).atIndex(0).tap();
+});
+
+Then('I tap on the Water Counter by label', async () => {
+    await element(by.label('waterCounterLabel')).tap();
+});
+
+// Match by text
 Given('I tap on the Counters section by text', async () => {
     await element(by.text('Counters')).tap();
 });

@@ -30,7 +30,8 @@ const CounterScreen = () => {
 
   return (
     <SafeAreaView style={styles.container} forceInset={{ top: 'always' }}>
-      <View>
+      <View accessibilityLabel="waterCounterLabel"
+      >
         <CounterButton
           text="Water Counter"
           onPress={() => {
