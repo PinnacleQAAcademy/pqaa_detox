@@ -25,3 +25,7 @@ Feature: Element matchers
         And I tap on the Electricity Counter by ID
         And I tap on the Gas Counter by ID
         Then I tap on the Broadband Counter by ID
+
+    @matchers @multiple
+    Scenario: I can locate elements by multiple matchers
+        When I tap on the Water Counter Title by type and text

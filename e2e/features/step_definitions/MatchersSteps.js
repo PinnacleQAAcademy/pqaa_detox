@@ -2,6 +2,13 @@ import { Given, When, Then, setDefaultTimeout } from '@cucumber/cucumber';
 
 setDefaultTimeout(120 * 1000);
 
+// Match by mulitple matchers
+When('I tap on the Water Counter Title by type and text', async () => {
+    const typeLocator = device.getPlatform() === 'ios' ? 'RCTTextView' : 'android.widget.TextView'
+    
+    await element(by.type(typeLocator).and(by.text('WATER COUNTER'))).tap();
+});
+
 // Match by ID
 When('I tap on the Water Counter by ID', async () => {
     await element(by.id('waterCounter')).tap();
