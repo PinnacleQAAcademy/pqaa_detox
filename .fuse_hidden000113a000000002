@@ -1,0 +1,374 @@
+INFO    | Android emulator version 33.1.24.0 (build_id 11237101) (CL:N/A)
+DEBUG   | Current emulator version 33.1.24 is the same as the required version 33.1.24.
+INFO    | Found systemPath /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64/
+INFO    | Storing crashdata in: , detection is enabled for process: 9620
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+DEBUG   | autoconfig: -skin pixel_3a
+DEBUG   | autoconfig: -skindir /home/patricia/Android/Sdk/skins/
+DEBUG   | autoconfig: -kernel /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//kernel-ranchu
+DEBUG   | Target arch = 'x86_64'
+DEBUG   | Auto-detect: Kernel image requires new device naming scheme.
+DEBUG   | Auto-detect: Kernel does not support YAFFS2 partitions.
+DEBUG   | autoconfig: -ramdisk /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//ramdisk.img
+DEBUG   | Using initial system image: /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//system.img
+DEBUG   | Using initial vendor image: /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//vendor.img
+DEBUG   | autoconfig: -data /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/userdata-qemu.img
+DEBUG   | autoconfig: -initdata /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/userdata.img
+DEBUG   | autoconfig: -cache /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/cache.img
+DEBUG   | autoconfig: -sdcard /home/patricia/.android/avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/sdcard.img
+INFO    | Increasing RAM size to 2048MB
+DEBUG   | VM heap size 256MB is below hardware specified minimum of 512MB,setting it to that value
+DEBUG   | System image is read only
+DEBUG   | Found 1 DNS servers:
+DEBUG   | 	127.0.0.53
+DEBUG   | Starting hostapd main loop.
+DEBUG   | trying to load skin file '/home/patricia/Android/Sdk/skins//pixel_3a/layout'
+DEBUG   | File System is ext4, do not disable QuickbootFileBacked feature
+DEBUG   | Requested console port 14168: Inferring adb port 14169.
+DEBUG   | CPU Acceleration: working
+DEBUG   | CPU Acceleration status: KVM (version 12) is installed and usable.
+DEBUG   | handleCpuAcceleration: feature check for hvf
+WARNING | Emualtor does not support more than 6 cores. Number of cores set to 6
+DEBUG   | Bluetooth requested by guest
+DEBUG   | started modem simulator host server at port: 44205
+library_mode host gpu mode host
+DEBUG   | GPU emulation enabled using 'host' mode
+DEBUG   | Initializing hardware OpenGLES emulation support
+I0214 20:24:02.232089    9620 HealthMonitor.cpp:279] HealthMonitor disabled.
+DEBUG   | create display 0
+DEBUG   | setDisplayPose 0 x 0 y 0 w 1080 h 2220 dpi 0
+cannot add library libvulkan.so: failed
+added library libvulkan.so.1
+createGlobalVkEmulation:963 Selecting Vulkan device: NVIDIA GeForce GTX 1650
+initialize: Supports id properties, got a vulkan device UUID
+WARNING: could not open libX11.so, try libX11.so.6
+I0214 20:24:02.466174    9620 VkCommonOperations.cpp:1225] Initializing VkEmulation features:
+I0214 20:24:02.466530    9620 VkCommonOperations.cpp:1226]     glInteropSupported: true
+I0214 20:24:02.466748    9620 VkCommonOperations.cpp:1227]     useDeferredCommands: true
+I0214 20:24:02.466974    9620 VkCommonOperations.cpp:1229]     createResourceWithRequirements: true
+I0214 20:24:02.467178    9620 VkCommonOperations.cpp:1230]     useVulkanComposition: false
+I0214 20:24:02.467363    9620 VkCommonOperations.cpp:1231]     useVulkanNativeSwapchain: false
+I0214 20:24:02.467537    9620 VkCommonOperations.cpp:1232]     enable guestRenderDoc: false
+I0214 20:24:02.467706    9620 VkCommonOperations.cpp:1233]     ASTC LDR emulation mode: 2
+I0214 20:24:02.467877    9620 VkCommonOperations.cpp:1234]     enable ETC2 emulation: true
+I0214 20:24:02.468050    9620 VkCommonOperations.cpp:1235]     enable Ycbcr emulation: false
+I0214 20:24:02.468221    9620 VkCommonOperations.cpp:1236]     guestUsesAngle: false
+I0214 20:24:02.468443    9620 VkCommonOperations.cpp:1237]     useDedicatedAllocations: false
+I0214 20:24:02.469805    9620 FrameBuffer.cpp:486] Graphics Adapter Vendor Google (NVIDIA Corporation)
+I0214 20:24:02.469997    9620 FrameBuffer.cpp:487] Graphics Adapter Android Emulator OpenGL ES Translator (NVIDIA GeForce GTX 1650/PCIe/SSE2)
+I0214 20:24:02.470209    9620 FrameBuffer.cpp:488] Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 535.154.05)
+I0214 20:24:02.470398    9620 FrameBuffer.cpp:489] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
+I0214 20:24:02.470561    9620 FrameBuffer.cpp:490] Graphics Device Extensions N/A
+INFO    | Setting vsync to 60 hz
+INFO    | Sending adb public key [QAAAAFFhi0NPeK+MlOie2SCRf+A47A6bp+C+kbcSbscRnnsTz8LO2RC7QLI6jHYOhfNExYhypChxM6ZxSJ3c2sq03cE87J78WeoYwENzGVVS/y5XlW0q4tXN0YRYFIBQ15vl+hMesEjuAmRnty/S9KkQG3emOlR8d+fx3E82jukgPR7MCh6OCVgmJP5T47jmTeY38QwhUQ2Rr0I7s8b16dXfnldNvdcbD4eGI/ZFyQPBuMAPiuTjwhtXGbY4I/e1gihympPSQvrkTO7ayZ1f+3ESxtW7q17VXTpQT/wXjfWXZmcmuwyAQXPGFkDFARGwR85oUs7I/0IUUYVmccvqZa2WAbCDk5+oe0X8vWun8PFiZtlI35jQNm59RsGOqT47rg3lsoLe7lX0AQWG24TiqhCLUfWy09/7IL5ujkF7Q25gaToAkENr972SFWgkh0bSoBwFHDj7jejiVNXkqX1Vzitq/mq5IDfWXWZ4hV0ah5i7eU5NRHAHJrzKpQMWm9JbKGeQygKoUtC7R1zUGeQwiuMo5GXsJP/xv5sL6Rq272QNv/zbo8RWDko6A/568kqvdIs43beW/kUpYV1gMOeOBqf6jjQ1VFE9F9JnJMqVBejDy0NJc2EBzrWS+3HD4HkPivej6NlZ0+wM0teB/BN7HGvp6UUtNBJlbfMk8ZU0ULJqDta7YOBwoQEAAQA= patricia@unknown]
+DEBUG   | Found 1 DNS servers:
+DEBUG   | 	127.0.0.53
+INFO    | Content of hardware configuration file:
+INFO    | 	hw.cpu.arch = x86_64
+INFO    | 	hw.cpu.ncore = 6
+INFO    | 	hw.ramSize = 2048
+INFO    | 	hw.screen = multi-touch
+INFO    | 	hw.mainKeys = false
+INFO    | 	hw.trackBall = false
+INFO    | 	hw.keyboard = true
+INFO    | 	hw.keyboard.lid = false
+INFO    | 	hw.keyboard.charmap = qwerty2
+INFO    | 	hw.dPad = false
+INFO    | 	hw.rotaryInput = false
+INFO    | 	hw.gsmModem = true
+INFO    | 	hw.gps = true
+INFO    | 	hw.battery = true
+INFO    | 	hw.accelerometer = true
+INFO    | 	hw.accelerometer_uncalibrated = true
+INFO    | 	hw.gyroscope = true
+INFO    | 	hw.audioInput = true
+INFO    | 	hw.audioOutput = true
+INFO    | 	hw.sdCard = true
+INFO    | 	hw.sdCard.path = /home/patricia/.android/avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/sdcard.img
+INFO    | 	disk.cachePartition = true
+INFO    | 	disk.cachePartition.path = /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/cache.img
+INFO    | 	disk.cachePartition.size = 66m
+INFO    | 	test.quitAfterBootTimeOut = -1
+INFO    | 	test.delayAdbTillBootComplete = 0
+INFO    | 	test.monitorAdb = 0
+INFO    | 	hw.lcd.width = 1080
+INFO    | 	hw.lcd.height = 2220
+INFO    | 	hw.lcd.depth = 16
+INFO    | 	hw.lcd.circular = false
+INFO    | 	hw.lcd.density = 440
+INFO    | 	hw.lcd.backlight = true
+INFO    | 	hw.lcd.vsync = 60
+INFO    | 	hw.gltransport = pipe
+INFO    | 	hw.gltransport.asg.writeBufferSize = 1048576
+INFO    | 	hw.gltransport.asg.writeStepSize = 4096
+INFO    | 	hw.gltransport.asg.dataRingSize = 32768
+INFO    | 	hw.gltransport.drawFlushInterval = 800
+INFO    | 	hw.displayRegion.0.1.xOffset = -1
+INFO    | 	hw.displayRegion.0.1.yOffset = -1
+INFO    | 	hw.displayRegion.0.1.width = 0
+INFO    | 	hw.displayRegion.0.1.height = 0
+INFO    | 	hw.displayRegion.0.2.xOffset = -1
+INFO    | 	hw.displayRegion.0.2.yOffset = -1
+INFO    | 	hw.displayRegion.0.2.width = 0
+INFO    | 	hw.displayRegion.0.2.height = 0
+INFO    | 	hw.displayRegion.0.3.xOffset = -1
+INFO    | 	hw.displayRegion.0.3.yOffset = -1
+INFO    | 	hw.displayRegion.0.3.width = 0
+INFO    | 	hw.displayRegion.0.3.height = 0
+INFO    | 	hw.display1.width = 0
+INFO    | 	hw.display1.height = 0
+INFO    | 	hw.display1.density = 0
+INFO    | 	hw.display1.xOffset = -1
+INFO    | 	hw.display1.yOffset = -1
+INFO    | 	hw.display1.flag = 0
+INFO    | 	hw.display2.width = 0
+INFO    | 	hw.display2.height = 0
+INFO    | 	hw.display2.density = 0
+INFO    | 	hw.display2.xOffset = -1
+INFO    | 	hw.display2.yOffset = -1
+INFO    | 	hw.display2.flag = 0
+INFO    | 	hw.display3.width = 0
+INFO    | 	hw.display3.height = 0
+INFO    | 	hw.display3.density = 0
+INFO    | 	hw.display3.xOffset = -1
+INFO    | 	hw.display3.yOffset = -1
+INFO    | 	hw.display3.flag = 0
+INFO    | 	hw.multi_display_window = false
+INFO    | 	hw.hotplug_multi_display = false
+INFO    | 	hw.gpu.enabled = true
+INFO    | 	hw.gpu.mode = host
+INFO    | 	hw.initialOrientation = Portrait
+INFO    | 	hw.camera.back = emulated
+INFO    | 	hw.camera.front = emulated
+INFO    | 	vm.heapSize = 512
+INFO    | 	hw.sensors.light = true
+INFO    | 	hw.sensors.pressure = true
+INFO    | 	hw.sensors.humidity = true
+INFO    | 	hw.sensors.proximity = true
+INFO    | 	hw.sensors.magnetic_field = true
+INFO    | 	hw.sensors.magnetic_field_uncalibrated = true
+INFO    | 	hw.sensors.gyroscope_uncalibrated = true
+INFO    | 	hw.sensors.orientation = true
+INFO    | 	hw.sensors.temperature = true
+INFO    | 	hw.sensors.rgbclight = false
+INFO    | 	hw.sensor.hinge = false
+INFO    | 	hw.sensor.hinge.count = 0
+INFO    | 	hw.sensor.hinge.type = 0
+INFO    | 	hw.sensor.hinge.sub_type = 0
+INFO    | 	hw.sensor.hinge.resizable.config = 1
+INFO    | 	hw.sensor.hinge.fold_to_displayRegion.0.1_at_posture = 1
+INFO    | 	hw.sensor.roll = false
+INFO    | 	hw.sensor.roll.count = 0
+INFO    | 	hw.sensor.roll.resize_to_displayRegion.0.1_at_posture = 6
+INFO    | 	hw.sensor.roll.resize_to_displayRegion.0.2_at_posture = 6
+INFO    | 	hw.sensor.roll.resize_to_displayRegion.0.3_at_posture = 6
+INFO    | 	hw.sensors.heart_rate = false
+INFO    | 	hw.sensors.wrist_tilt = false
+INFO    | 	hw.useext4 = true
+INFO    | 	hw.arc = false
+INFO    | 	hw.arc.autologin = false
+INFO    | 	hw.device.name = pixel_3a
+INFO    | 	kernel.path = /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//kernel-ranchu
+INFO    | 	kernel.newDeviceNaming = yes
+INFO    | 	kernel.supportsYaffs2 = no
+INFO    | 	disk.ramdisk.path = /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//ramdisk.img
+INFO    | 	disk.systemPartition.initPath = /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//system.img
+INFO    | 	disk.systemPartition.size = 4107m
+INFO    | 	disk.vendorPartition.initPath = /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//vendor.img
+INFO    | 	disk.vendorPartition.size = 800m
+INFO    | 	disk.dataPartition.path = /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/userdata-qemu.img
+INFO    | 	disk.dataPartition.size = 6g
+INFO    | 	disk.encryptionKeyPartition.path = /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/encryptionkey.img
+INFO    | 	PlayStore.enabled = false
+INFO    | 	avd.name = Pixel
+INFO    | 	avd.id = Pixel
+INFO    | 	fastboot.forceColdBoot = false
+INFO    | 	userdata.useQcow2 = true
+INFO    | 	firstboot.bootFromDownloadableSnapshot = true
+INFO    | 	firstboot.bootFromLocalSnapshot = true
+INFO    | 	firstboot.saveToLocalSnapshot = true
+INFO    | 	android.sdk.root = /home/patricia/Android/Sdk/
+INFO    | 	android.avd.home = /home/patricia/.android/avd
+INFO    | .
+INFO    | QEMU options list:
+INFO    | 	 argv[00] = "/home/patricia/Android/Sdk/emulator/qemu/linux-x86_64/qemu-system-x86_64"
+INFO    | 	 argv[01] = "-read-only"
+INFO    | 	 argv[02] = "-dns-server"
+INFO    | 	 argv[03] = "127.0.0.53"
+INFO    | 	 argv[04] = "-no-audio"
+INFO    | 	 argv[05] = "-mem-path"
+INFO    | 	 argv[06] = "/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/snapshots/default_boot/ram.img"
+INFO    | 	 argv[07] = "-serial"
+INFO    | 	 argv[08] = "null"
+INFO    | 	 argv[09] = "-android-ports"
+INFO    | 	 argv[10] = "14168,14169"
+INFO    | 	 argv[11] = "-device"
+INFO    | 	 argv[12] = "goldfish_pstore,addr=0xff018000,size=0x10000,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/data/misc/pstore/pstore.bin"
+INFO    | 	 argv[13] = "-cpu"
+INFO    | 	 argv[14] = "android64-xts"
+INFO    | 	 argv[15] = "-enable-kvm"
+INFO    | 	 argv[16] = "-smp"
+INFO    | 	 argv[17] = "cores=6"
+INFO    | 	 argv[18] = "-m"
+INFO    | 	 argv[19] = "2048"
+INFO    | 	 argv[20] = "-lcd-density"
+INFO    | 	 argv[21] = "440"
+INFO    | 	 argv[22] = "-object"
+INFO    | 	 argv[23] = "iothread,id=disk-iothread"
+INFO    | 	 argv[24] = "-nodefaults"
+INFO    | 	 argv[25] = "-kernel"
+INFO    | 	 argv[26] = "/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//kernel-ranchu"
+INFO    | 	 argv[27] = "-initrd"
+INFO    | 	 argv[28] = "/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/initrd"
+INFO    | 	 argv[29] = "-drive"
+INFO    | 	 argv[30] = "if=none,index=0,id=system,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//system.img,read-only"
+INFO    | 	 argv[31] = "-device"
+INFO    | 	 argv[32] = "virtio-blk-pci,drive=system,iothread=disk-iothread,modern-pio-notify"
+INFO    | 	 argv[33] = "-drive"
+INFO    | 	 argv[34] = "if=none,index=1,id=cache,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+INFO    | 	 argv[35] = "-device"
+INFO    | 	 argv[36] = "virtio-blk-pci,drive=cache,iothread=disk-iothread,modern-pio-notify"
+INFO    | 	 argv[37] = "-drive"
+INFO    | 	 argv[38] = "if=none,index=2,id=userdata,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+INFO    | 	 argv[39] = "-device"
+INFO    | 	 argv[40] = "virtio-blk-pci,drive=userdata,iothread=disk-iothread,modern-pio-notify"
+INFO    | 	 argv[41] = "-drive"
+INFO    | 	 argv[42] = "if=none,index=3,id=encrypt,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+INFO    | 	 argv[43] = "-device"
+INFO    | 	 argv[44] = "virtio-blk-pci,drive=encrypt,iothread=disk-iothread,modern-pio-notify"
+INFO    | 	 argv[45] = "-drive"
+INFO    | 	 argv[46] = "if=none,index=4,id=vendor,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//vendor.img,read-only"
+INFO    | 	 argv[47] = "-device"
+INFO    | 	 argv[48] = "virtio-blk-pci,drive=vendor,iothread=disk-iothread,modern-pio-notify"
+INFO    | 	 argv[49] = "-drive"
+INFO    | 	 argv[50] = "if=none,index=5,id=sdcard,if=none,file=/home/patricia/.android/avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/sdcard.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576"
+INFO    | 	 argv[51] = "-device"
+INFO    | 	 argv[52] = "virtio-blk-pci,drive=sdcard,iothread=disk-iothread,modern-pio-notify"
+INFO    | 	 argv[53] = "-netdev"
+INFO    | 	 argv[54] = "user,id=mynet"
+INFO    | 	 argv[55] = "-device"
+INFO    | 	 argv[56] = "virtio-net-pci,netdev=mynet"
+INFO    | 	 argv[57] = "-chardev"
+INFO    | 	 argv[58] = "null,id=forhvc0"
+INFO    | 	 argv[59] = "-chardev"
+INFO    | 	 argv[60] = "null,id=forhvc1"
+INFO    | 	 argv[61] = "-device"
+INFO    | 	 argv[62] = "virtio-serial-pci,ioeventfd=off"
+INFO    | 	 argv[63] = "-device"
+INFO    | 	 argv[64] = "virtconsole,chardev=forhvc0"
+INFO    | 	 argv[65] = "-device"
+INFO    | 	 argv[66] = "virtconsole,chardev=forhvc1"
+INFO    | 	 argv[67] = "-chardev"
+INFO    | 	 argv[68] = "netsim,id=bluetooth"
+INFO    | 	 argv[69] = "-device"
+INFO    | 	 argv[70] = "virtserialport,chardev=bluetooth,name=bluetooth"
+INFO    | 	 argv[71] = "-device"
+INFO    | 	 argv[72] = "virtio-serial,ioeventfd=off"
+INFO    | 	 argv[73] = "-chardev"
+INFO    | 	 argv[74] = "socket,port=35717,host=::1,nowait,nodelay,reconnect=10,ipv6,id=modem"
+INFO    | 	 argv[75] = "-device"
+INFO    | 	 argv[76] = "virtserialport,chardev=modem,name=modem"
+INFO    | 	 argv[77] = "-device"
+INFO    | 	 argv[78] = "virtio-rng-pci"
+INFO    | 	 argv[79] = "-show-cursor"
+INFO    | 	 argv[80] = "-device"
+INFO    | 	 argv[81] = "virtio_input_multi_touch_pci_1"
+INFO    | 	 argv[82] = "-device"
+INFO    | 	 argv[83] = "virtio_input_multi_touch_pci_2"
+INFO    | 	 argv[84] = "-device"
+INFO    | 	 argv[85] = "virtio_input_multi_touch_pci_3"
+INFO    | 	 argv[86] = "-device"
+INFO    | 	 argv[87] = "virtio_input_multi_touch_pci_4"
+INFO    | 	 argv[88] = "-device"
+INFO    | 	 argv[89] = "virtio_input_multi_touch_pci_5"
+INFO    | 	 argv[90] = "-device"
+INFO    | 	 argv[91] = "virtio_input_multi_touch_pci_6"
+INFO    | 	 argv[92] = "-device"
+INFO    | 	 argv[93] = "virtio_input_multi_touch_pci_7"
+INFO    | 	 argv[94] = "-device"
+INFO    | 	 argv[95] = "virtio_input_multi_touch_pci_8"
+INFO    | 	 argv[96] = "-device"
+INFO    | 	 argv[97] = "virtio_input_multi_touch_pci_9"
+INFO    | 	 argv[98] = "-device"
+INFO    | 	 argv[99] = "virtio_input_multi_touch_pci_10"
+INFO    | 	 argv[100] = "-device"
+INFO    | 	 argv[101] = "virtio_input_multi_touch_pci_11"
+INFO    | 	 argv[102] = "-device"
+INFO    | 	 argv[103] = "virtio-keyboard-pci"
+INFO    | 	 argv[104] = "-netdev"
+INFO    | 	 argv[105] = "user,id=virtio-wifi,dhcpstart=10.0.2.16"
+INFO    | 	 argv[106] = "-device"
+INFO    | 	 argv[107] = "virtio-wifi-pci,netdev=virtio-wifi"
+INFO    | 	 argv[108] = "-device"
+INFO    | 	 argv[109] = "virtio-vsock-pci,guest-cid=77"
+INFO    | 	 argv[110] = "-L"
+INFO    | 	 argv[111] = "/home/patricia/Android/Sdk/emulator/lib/pc-bios"
+INFO    | 	 argv[112] = "-soundhw"
+INFO    | 	 argv[113] = "virtio-snd-pci"
+INFO    | 	 argv[114] = "-vga"
+INFO    | 	 argv[115] = "none"
+INFO    | 	 argv[116] = "-append"
+INFO    | 	 argv[117] = "no_timer_check 8250.nr_uarts=1 clocksource=pit console=0 cma=294M@0-4G loop.max_part=7 ramoops.mem_address=0xff018000 ramoops.mem_size=0x10000 memmap=0x10000$0xff018000 printk.devkmsg=on bootconfig"
+INFO    | 	 argv[118] = "-android-hw"
+INFO    | 	 argv[119] = "/tmp/android-patricia/emulator-evzR6B"
+INFO    | Concatenated QEMU options: /home/patricia/Android/Sdk/emulator/qemu/linux-x86_64/qemu-system-x86_64 -read-only -dns-server 127.0.0.53 -no-audio -mem-path /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/snapshots/default_boot/ram.img -serial null -android-ports 14168,14169 -device goldfish_pstore,addr=0xff018000,size=0x10000,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/data/misc/pstore/pstore.bin -cpu android64-xts -enable-kvm -smp cores=6 -m 2048 -lcd-density 440 -object iothread,id=disk-iothread -nodefaults -kernel /home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//kernel-ranchu -initrd /home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/initrd -drive if=none,index=0,id=system,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//system.img,read-only -device virtio-blk-pci,drive=system,iothread=disk-iothread,modern-pio-notify -drive if=none,index=1,id=cache,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/cache.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=cache,iothread=disk-iothread,modern-pio-notify -drive if=none,index=2,id=userdata,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/userdata-qemu.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=userdata,iothread=disk-iothread,modern-pio-notify -drive if=none,index=3,id=encrypt,if=none,file=/home/patricia/.android/avd/../avd/Pixel_3a_API_34_extension_level_7_x86_64.avd/encryptionkey.img.qcow2,overlap-check=none,cache=unsafe,l2-cache-size=1048576 -device virtio-blk-pci,drive=encrypt,iothread=disk-iothread,modern-pio-notify -drive if=none,index=4,id=vendor,if=none,file=/home/patricia/Android/Sdk//system-images/android-34/google_apis/x86_64//vendor.img,read-only -device virtio-blk-pci,drive=vendor,iothread=disk-iothread,modern
+DEBUG   | Android qemu version 33.1.24.0 (build_id 11237101) (CL:N/A)
+DEBUG   | Starting QEMU main loop
+DEBUG   | registered 'boot-properties' qemud service
+DEBUG   | Adding boot property: 'ro.opengles.version' = '196609'
+DEBUG   | Adding boot property: 'qemu.sf.fake_camera' = 'both'
+DEBUG   | Adding boot property: 'dalvik.vm.heapsize' = '512m'
+DEBUG   | Adding boot property: 'qemu.hw.mainkeys' = '0'
+DEBUG   | Adding boot property: 'qemu.sf.lcd_density' = '440'
+DEBUG   | goldfish_events.have-dpad: false
+DEBUG   | goldfish_events.have-trackball: false
+DEBUG   | goldfish_events.have-camera: true
+DEBUG   | goldfish_events.have-keyboard: false
+DEBUG   | goldfish_events.have-lidswitch: false
+DEBUG   | goldfish_events.have-tabletmode: false
+DEBUG   | goldfish_events.have-touch: false
+DEBUG   | goldfish_events.have-multitouch: false
+DEBUG   | Adding boot property: 'net.wifi_mac_prefix' = '14168'
+WARNING | Requested adb port (14169) is outside the recommended range [5555,5586]. ADB may not function properly for the emulator. See -help-port for details.
+DEBUG   | Not using any http proxy
+DEBUG   | Adding boot property: 'qemu.timezone' = 'America/Sao_Paulo'
+DEBUG   | android_hw_fingerprint_init: fingerprint qemud listen service initialized
+DEBUG   | Successfully initialized Wi-Fi
+DEBUG   | emulator_window_fb_rotate
+I0214 20:24:02.818668    9681 FrameBuffer.cpp:3682] setDisplayConfigs w 1080 h 2220 dpiX 440 dpiY 440
+DEBUG   | setDisplayPose 0 x 0 y 0 w 1080 h 2220 dpi 0
+I0214 20:24:02.819002    9681 FrameBuffer.cpp:3695] setDisplayActiveConfig 0
+DEBUG   | Path:/home/patricia/Android/Sdk/platform-tools/adb protocol version: 41
+DEBUG   | Path:/home/patricia/Android/Sdk/platform-tools/adb protocol version: 41
+DEBUG   | Path:/usr/bin/adb protocol version: 41
+DEBUG   | Found: 3 adb executables
+DEBUG   | Adb: /home/patricia/Android/Sdk/platform-tools/adb
+DEBUG   | Adb: /home/patricia/Android/Sdk/platform-tools/adb
+DEBUG   | Adb: /usr/bin/adb
+DEBUG   | Path:/home/patricia/Android/Sdk/platform-tools/adb protocol version: 41
+DEBUG   | Path:/home/patricia/Android/Sdk/platform-tools/adb protocol version: 41
+DEBUG   | Path:/usr/bin/adb protocol version: 41
+DEBUG   | config multidisplay with config.ini 0x0 0x0 0x0
+DEBUG   | No acpi ini file provided, using default
+DEBUG   | added one RIL client
+INFO    | Loading snapshot 'default_boot'...
+DEBUG   | Adding boot property: 'ro.opengles.version' = '196609'
+DEBUG   | Adding boot property: 'qemu.sf.fake_camera' = 'both'
+DEBUG   | Adding boot property: 'dalvik.vm.heapsize' = '512m'
+DEBUG   | Adding boot property: 'qemu.hw.mainkeys' = '0'
+DEBUG   | Adding boot property: 'qemu.sf.lcd_density' = '440'
+DEBUG   | Adding boot property: 'net.wifi_mac_prefix' = '5554'
+DEBUG   | Adding boot property: 'qemu.timezone' = 'America/Sao_Paulo'
+DEBUG   | Registering pipe service multidisplay
+DEBUG   | MultiDisplayPipe created 0x555eaee070a0
+DEBUG   | _hwFingerprint_connect: connect finger print listen is called
+INFO    | Successfully loaded snapshot 'default_boot'
+DEBUG   | calling ctec from remote
+DEBUG   | added one remote client
+E0214 20:24:04.671035    9781 FrameBuffer.cpp:3736] Failed to find ColorBuffer:0
+INFO    | Activated packet streamer for bluetooth emulation
+E0214 20:24:12.496639    9781 FrameBuffer.cpp:3736] Failed to find ColorBuffer:0
+DEBUG   | Data frame has invalid ether type 0
+DEBUG   | Unexpected ether type: 0. Dump frame: Data (Data)
+DEBUG   | Clipboard update, host->guest, value=' Match by matchers + ancestor/descendan'
+DEBUG   | Clipboard update, host->guest, value='Match by matchers + ancestor/descendant'

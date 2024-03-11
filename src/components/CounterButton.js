@@ -6,7 +6,7 @@ export default CounterButton = ({ text, onPress, counter }) => {
     <View style={styles.view}>
       <TouchableOpacity onPress={onPress}>
         <View style={styles.button}>
-          <Text style={styles.buttonText}>{text}</Text>
+          <Text style={styles.buttonText} testID="counterButton">{text}</Text>
         </View>
       </TouchableOpacity>
       <View>
